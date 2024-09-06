@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body class="bg-white">
+  <div class="flex justify-between px-5 py-5">
+    <a href="./index.html">
+      <div class="text-2xl font-semibold text-slate-700">Astro<span class="text-slate-500">ship</span></div>
+    </a>
+    <div>
+      <ul class="flex">
+        <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">Features</li>
+        <a href="./Pricing.html">
+          <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">Pricing</li>
+        </a>
+        <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">About</li>
+        <a href="./Blog.html">
+          <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">Blog</li>
+        </a>
+        <a href="./Contact.html">
+          <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">Contact</li>
+        </a>
+        <li class="px-4 py-2 text-base font-semibold text-slate-500 cursor-pointer hover:text-gray-700">Pro Version
+          <span class="ml-1 px-2 py-0.5 text-xs animate-pulse uppercase text-white bg-indigo-600 rounded-full">
+            New
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="flex">
+      <a href="./Login.html">
+        <div class="px-4 py-2 font-semibold cursor-pointer">Log in</div>
+      </a>
+      <div class="px-4"><a href="./Signup.html">
+          <button class=" bg-black font-semibold py-2 px-6 rounded-md text-white hover:bg-gray-700">Sign
+            up</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="max-w-screen-xl mx-auto px-5">
+    <div class="mt-16 text-center">
+      <h1 class="text-4xl lg:text-5xl font-semibold lg:tracking-tight"> About </h1>
+      <p class="text-lg mt-4 text-slate-500"> We are a small passionate team. </p>
+    </div>
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <h2 class="font-bold text-3xl text-gray-800">
+        Empowering the world with Astro.
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500">
+        We're a multi-cultural team from around the world! We come from diverse
+        backgrounds, bringing different personalities, experiences and skills to
+        the job. This is what makes our team so special.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+
+      <div class="group">
+        <div class="w-full aspect-square">
+          <picture>
+            <source srcset="https://images.unsplash.com/photo-1633332755192-727a05c4013d?&amp;fit=crop&amp;w=280"
+              type="image/webp" sizes="(max-width: 800px) 100vw, 400px"> <img
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?&amp;fit=crop&amp;w=280"
+              alt="Marcell Ziemann" sizes="(max-width: 800px) 100vw, 400px"
+              class="w-full rounded-md cursor-pointer  transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+              width="400" height="400" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Marcell Ziemann</h2>
+          <h3 class="text-sm text-slate-500"> Principal Strategist </h3>
+        </div>
+      </div>
+      <div class="group">
+        <div class="w-full aspect-square">
+          <picture>
+            <source
+              srcset="https://img.freepik.com/free-photo/front-view-happy-woman-studio_23-2148410893.jpg?ga=GA1.1.964914373.1724516216&semt=ais_hybrid"
+              type="image/webp" sizes="(max-width: 800px) 100vw, 400px"> <img
+              src="https://img.freepik.com/free-photo/front-view-happy-woman-studio_23-2148410893.jpg?ga=GA1.1.964914373.1724516216&semt=ais_hybrid"
+              alt="Marcell Ziemann" sizes="(max-width: 800px) 100vw, 400px"
+              class="w-full rounded-md  transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white cursor-pointer object-cover object-center aspect-square"
+              width="400" height="400" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Janette Lynch</h2>
+          <h3 class="text-sm text-slate-500"> Senior Director </h3>
+        </div>
+      </div>
+      <div class="group">
+        <div class="w-full aspect-square">
+          <picture>
+            <source srcset="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?&amp;fit=crop&amp;w=280"
+              type="image/webp" sizes="(max-width: 800px) 100vw, 400px"> <img
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?&amp;fit=crop&amp;w=280"
+              alt="Robert Palmer" sizes="(max-width: 800px) 100vw, 400px"
+              class="w-full rounded-md  transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white cursor-pointer object-cover object-center aspect-square"
+              width="400" height="400" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="mt-4 text-center">
+          <h2 class="text-lg text-gray-800">Robert Palmer</h2>
+          <h3 class="text-sm text-slate-500"> Marketing Engineer </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-1 pt-20 pb-10 gap-2 place-items-center">
+    <p class="text-slate-500">Copyright © 2024 Astroship. All rights reserved.</p>
+    <p class="text-slate-500">Made by <a class="decoration-none"
+        href="https://arjunsaini024.github.io/Arjun-portfolio/">Arjun Saini</a></p>
+  </div>
+
+</body>
+
+</html>
